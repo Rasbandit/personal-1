@@ -1,4 +1,5 @@
-angular.module("ppApp", ['ui.router']).config(function($stateProvider, $urlRouterProvider) {
+angular.module("ppApp", ['ui.router', 'ngAnimate'])
+.config(function($stateProvider, $urlRouterProvider) {
 
   $urlRouterProvider.otherwise('/poke');
 

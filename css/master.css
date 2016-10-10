@@ -8,7 +8,7 @@ body {
 
 .main_body {
   width: 900px;
-  height: 150vh;
+  height: 110%;
   margin: auto;
   background-color: #d8cbc5;
   box-shadow: inset 3px 3px 30px 2px #fcf0ea;
@@ -48,5 +48,17 @@ body {
    color: #984b43;
 }
 .warm-yellow {
-   color: #eac67a;
+   background-color: #eac67a;
+}
+
+/* The starting CSS styles for the enter animation */
+/* start 'enter' transition */
+main.ng-enter {
+    transition: 1.4s;
+
+    opacity: 0;
+}
+
+main.ng-enter-active {
+    opacity: 1;
 }
